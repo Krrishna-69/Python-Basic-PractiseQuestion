@@ -1,7 +1,14 @@
 #2.WAP to reverse a string without using inbuilt function
-s = 'krishna'
-d = ''
-for i in s:
-    d = i + d
+s = 'hello pyhton'
+s.reverse()
+print(s[::-1])
 
-print(d)
+res = ''
+for i in s:
+    res = i + res
+print(res)
+print()
+
+s1 = reversed(s)
+print(list(s1))
+
